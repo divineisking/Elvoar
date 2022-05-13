@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#013336;
+  color:aquamarine;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+.blurBackground0{
+  background-color: rgba(255, 255, 255, 0.363);
+  background-position: center;
+  
+}
+
+.blurBackground8{
+  background-color: rgba(0, 255, 255, 0.233);
+  background-position: center;
+  margin-bottom: 5px;
+}
+
+.picBackground{
+  background-image: url(../IMG/george-bakos-OvEr7BwXxxg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  background-repeat: no-repeat;
+}
+
+h2{
+    font-size: large;
+    font-family: monospace;
+    font-weight: 400;
+}
+
+.headerMan{
+    height: 500px;
+    width: 500px;
+    background-position: center;
+    background-color: #1e1e1e;
+    background-image: url(../IMG/travel-concept-with-landmarks_23-2149153256.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 3px 5px 45px 5px #013336;
+    
+}
+
+
+.babyShark{
+  opacity: 0.9;
+  border-color: rgb(15, 219, 175);
+}
+
+.topNavBar{
+    min-width: 300;
+    height: 50px;
+    position:fixed;
+    color: aquamarine;
+    background-color: #013336;
+    margin-top: 25px;
+    margin-left: 55px;
+    margin-right: 15px;
+    border-radius: 25px 25px;
+    z-index: 1;
+    
+
+}
+
+.navBarList{
+    padding-left: 5px;
+}
+
+.navListItem{
+list-style-type: none;
+float: left;
+line-height: 50px;
+
+
+}
+
+.navAnchor{
+text-decoration: none;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+color: aquamarine;
+padding: 0 20px;
+display: block;
+}
+
+.navListItem :hover{
+    text-decoration: overline;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aquamarine;
+    border-radius: 5%;
+    height: 5px;
+    
+    }
+
+.pricing-header {
+    max-width: 700px;
+    
+      }
+
+    /* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }
+  
+@media(max-width:425px){
+        .topNavBar{
+            max-width: 405px;
+            height: 50px;
+            color: aquamarine;
+            background-color: #013336;
+            border-radius: 25px 25px;
+            margin-right: 10px;
+            margin-left: 10px;
+           
+        }
+
+        .navAnchor{
+            text-decoration: none;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: aquamarine;
+            padding: 0;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin-left: 15px;
+            display: block;
+            }
+
+        .navBarList{
+                padding-left: 5px;
+            }
+
+        .navListItem{
+            list-style-type: none;
+            float: left;
+            line-height: 50px;
+                
+                
+                }
+            
+
+    }
+@media(max-width:375px ){
+    .topNavBar{
+        width: 300px;
+        height: 50px;
+        color: aquamarine;
+        background-color: #013336;
+        border-radius: 25px 25px;
+        margin-left: 10px;
+        margin-right: -10px;
+        
+    
+    }
+
+    .navListItem{
+        list-style-type: none;
+        display: inline-block;
+        
+        line-height: 50px;
+        
+        
+        }
+}
